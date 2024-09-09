@@ -1,0 +1,82 @@
+.episode-table {
+    padding: 20px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form Styling */
+  .episode-table form {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between form elements */
+  }
+  
+  /* Input and Select Styling */
+  .episode-table input[type="text"],
+  .episode-table select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input Focus Styling */
+  .episode-table input[type="text"]:focus,
+  .episode-table select:focus {
+    border-color: #007bff;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  /* Button Styling */
+  button.edit,
+  button.view {
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  button.edit:hover,
+  button.view:hover {
+    color: #0056b3; /* Hover color for the Edit and View buttons */
+  }
+  
+  /* Submit Button Styling */
+  .episode-table button[type="submit"] {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .episode-table button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

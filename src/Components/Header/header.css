@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  .view-genre-weights {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }

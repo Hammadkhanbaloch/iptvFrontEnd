@@ -1,0 +1,27 @@
+.season-table {
+    padding: 20px;
+    width: 100%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  button.edit, button.view {
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
